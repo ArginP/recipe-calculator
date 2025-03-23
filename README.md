@@ -6,10 +6,11 @@ Practice project
 
 - HTML
 - SCSS / Bootstrap 5
-- JavaScript / webpack
+- JavaScript / webpack / sweetalert2
 
 ## Реализованный функционал:
 
 - WIP
 - Переключение между дневной и ночной темой
 - Скрипты упакованы via webpack
+- Окна уведомлений via sweetalert2
