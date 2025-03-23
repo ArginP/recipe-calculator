@@ -6,9 +6,10 @@ Practice project
 
 - HTML
 - SCSS / Bootstrap 5
-- JavaScript
+- JavaScript / webpack
 
 ## Реализованный функционал:
 
 - WIP
 - Переключение между дневной и ночной темой
+- Скрипты упакованы via webpack

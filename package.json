@@ -1,0 +1,25 @@
+{
+  "name": "recipe-calculator",
+  "version": "1.0.0",
+  "description": "Practice project",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "webpack --mode=production",
+    "watch": "webpack --watch --mode=development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArginP/recipe-calculator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ArginP/recipe-calculator/issues"
+  },
+  "homepage": "https://github.com/ArginP/recipe-calculator#readme",
+  "devDependencies": {
+    "webpack": "^5.98.0",
+    "webpack-cli": "^6.0.1"
+  }
+}

@@ -1,9 +1,12 @@
+export const themeSelect = () => {
+
 // --- HTML элементы ---
-const checkbox = document.querySelector('#checkbox');
-const html = document.querySelector('html');
+    const checkbox = document.querySelector('#checkbox');
+    const html = document.querySelector('html');
 
 // --- Функция переключения темы ---
-function setTheme(checked) {
+    function setTheme(checked)
+{
     if (checked) { // выбрана светлая тема
         html.dataset.bsTheme = 'light';
     } else { // выбрана темная тема
@@ -17,3 +20,6 @@ checkbox.addEventListener('change', (e) => {
 })
 
 setTheme(checkbox.checked); // устанавливает тему при изначальной загрузке страницы
+};
+
+export default themeSelect;
